@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro Wi-Fi</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container01">
+    <div class="container02">
+      <img src="logo.png" alt="Logo" class="welcome-image"> 
+      <h1 class="welcome-title">Bem-vindo!</h1> 
+      <h2 class="welcome-subtitle">Cadastre-se para acessar a internet</h2>
+      <form id="registration-form">
+        
+        <label for="gender">Sexo:</label>
+        <select id="gender" name="gender" required>
+          <option value="masculino">Masculino</option>
+          <option value="feminino">Feminino</option>
+          <option value="outro">Outro</option>
+        </select>
+
+        <label for="age">Idade:</label>
+        <input type="number" id="age" name="age" min="0" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <input type="submit" class="regis-subtitle" value="Registrar">
+      </form>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

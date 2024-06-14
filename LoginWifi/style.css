@@ -1,0 +1,76 @@
+body {
+    background-color: #201f45; /* Azul de tom médio */
+    color: #fff; /* Texto branco */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container01 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .container02 {
+    text-align: center;
+    background-color: #000; /* Fundo preto */
+    padding: 20px;
+    border-radius: 50px;
+  }
+  
+  .welcome-image {
+    max-width: 100%; /* Ajusta a largura máxima da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    margin-bottom: 20px; /* Espaço abaixo da imagem */
+  }
+
+  .welcome-title {
+    margin: 0; 
+  }
+  
+  .welcome-subtitle {
+    margin-top: 2px; 
+    margin-bottom: 20px; 
+  }
+
+  .regis-subtitle{
+    margin-top: 8px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label, input, select {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+  }
+  
+  input, select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 25px; /* Borda arredondada */
+    font-size: 1em;
+  }
+  
+  input[type="submit"] {
+    background-color: #201f45; /* Verde */
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 1.2em;
+    border-radius: 25px; /* Borda arredondada */
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #54dea6; /* Verde escuro */
+  }
+  
