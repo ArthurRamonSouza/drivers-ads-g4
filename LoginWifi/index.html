@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cadastro Wi-Fi</title>
   <link rel="stylesheet" href="style.css">
+  <!-- Adicione o SDK do Firebase -->
+  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
 </head>
 <body>
   <div class="container01">
@@ -26,11 +29,26 @@
         
         <label for="email">Email:</label>
         <input type="email" id="email" name="email" required>
-
+        
         <input type="submit" class="regis-subtitle" value="Registrar">
       </form>
     </div>
   </div>
   <script src="script.js"></script>
+ <script>
+    
+    var firebaseConfig = {
+      apiKey: "chaveprojeto",
+      authDomain: "linkdo banco",
+      databaseURL: "linkdo banco",
+      projectId: "IDdo prohjeot",
+      storageBucket: "",
+      messagingSenderId: "",
+      appId: ""
+    };
+    
+    firebase.initializeApp(firebaseConfig);
+  </script>
+  
 </body>
 </html>
